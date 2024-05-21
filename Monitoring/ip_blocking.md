@@ -1,4 +1,4 @@
-# For IP blocking:
+# For IP Gathering:
 
 **Save the following script as:** 
 ` sudo nano /usr/local/bin/capture_ips_quick.sh `
