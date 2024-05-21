@@ -37,3 +37,6 @@ fi
 `sudo crontab -e`
 
 `*/2 * * * * sudo /usr/local/bin/drop_ip.sh`
+
+**Log File**
+The log file that shows the IP addresses blocked will be in the directory '/usr/log/honeypot'
