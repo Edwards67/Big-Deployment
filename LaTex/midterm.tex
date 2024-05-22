@@ -74,8 +74,15 @@ Our approach ensures high availability, load balancing, and robust defense again
 \input{systemDes}
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
-\section{Floating Figures and Lists}
-
+\section{Logging and IP Gathering}
+To enhance security and manage unauthorized access, our deployment includes a mechanism for 
+gathering and logging IP addresses. This mechanism is implemented through a series of scripts 
+and cron jobs designed to capture IP addresses attempting to access our server on ports other 
+than 22 (SSH) and 80 (HTTP), and to log network traffic for further analysis.
+In addition to capturing suspicious IP addresses, an hourly logging mechanism is implemented to 
+record all network traffic excluding ports 22 and 80. This logging allows for detailed 
+analysis of traffic patterns and potential threats. The logs are timestamped and stored systematically
+for easy retrieval and review.
 \input{threatMod}
 %-------------------------------------------------------------------------------
 
