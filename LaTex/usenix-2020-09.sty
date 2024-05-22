@@ -97,9 +97,9 @@
  \let\@maketitle\relax
  \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\let\thanks\relax}
 
-\def\@maketitle{\newpage
+ \def\@maketitle{\newpage
  \vbox to 2.5in{
- \vspace*{\fill}
+ \vspace*{-15pt}
  \vskip 2em
  \begin{center}%
   {\Large\bf \@title \par}%
@@ -109,11 +109,13 @@
    \begin{tabular}[t]{c}\@author
    \end{tabular}\par}%
  \end{center}%
+ \vskip 3em % Increase the vertical space here
  \par
  \vspace*{\fill}
-% \vskip 1.5em
  }
 }
+
+
 
 %
 % The abstract is preceded by a 12-pt bold centered heading

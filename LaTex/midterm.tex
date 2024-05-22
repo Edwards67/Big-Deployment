@@ -1,4 +1,3 @@
-
 \documentclass[letterpaper,twocolumn,10pt]{article}
 \usepackage{usenix-2020-09}
 
@@ -9,7 +8,6 @@
 % inlined bib file
 \usepackage{filecontents}
 
-
 %-------------------------------------------------------------------------------
 \begin{document}
 %-------------------------------------------------------------------------------
@@ -18,47 +16,47 @@
 \date{}
 
 % make title bold and 14 pt font (Latex default is non-bold, 16 pt)
-\title{\Large \bf Formatting Submissions for a USENIX Conference:\\
-  An (Incomplete) Example}
+\title{\Large \bf Implementing a Secure Microservice Architecture:\\
+  NGINX \& Kubernetes Deployment}
 
 %for single author (just remove % characters)
 \author{
-{\rm Alex Moomaw}\\
+{\rm Orchestration: Alexander Moomaw}\\
 Eastern Washington University
 \and
-{\rm A Ramirez}\\
+{\rm Services: Andre Ramirez}\\
 Eastern Washington University
 \and
-{\rm Brendan Hopkins}\\
+{\rm Logging: Brendan Hopkins}\\
 Eastern Washington University
 \and
-{\rm Beighlor Martinez}\\
+{\rm Services: Beighlor Martinez}\\
 Eastern Washington University
 \and
-{\rm Cameron Olivier}\\
+{\rm Defense: Cameron Olivier}\\
 Eastern Washington University
 \and
-{\rm Dillon Pikulik}\\
+{\rm Frontend: Dillon Pikulik}\\
 Eastern Washington University
 \and
-{\rm Chelsea Edwards}\\
+{\rm Project Management: Chelsea Edwards}\\
 Eastern Washington University
-
+}
 % copy the following lines to add more authors
 % \and
 % {\rm Name}\\
 %Name Institution
-} % end author
+ % end author
 
 \maketitle
-
 %-------------------------------------------------------------------------------
 \begin{abstract}
 %-------------------------------------------------------------------------------
-Your abstract text goes here. Just a few facts. Whet our appetites.
-Not more than 200 words, if possible, and preferably closer to 150.
+This paper presents a secure and scalable deployment architecture for web server environments using Kubernetes. 
+The deployment incorporates a proxy and web application firewall for enhanced security and modular design. 
+Additionally, we introduce our solution to logging and IP banning mechanisms to monitor and restrict unauthorized access. 
+Our approach ensures high availability, load balancing, and robust defense against threats, offering a comprehensive framework for modern web applications.
 \end{abstract}
-
 
 %-------------------------------------------------------------------------------
 \section{Introduction}
@@ -66,9 +64,9 @@ Not more than 200 words, if possible, and preferably closer to 150.
 \input{intro}
 
 %-------------------------------------------------------------------------------
-\section{Footnotes, Verbatim, and Citations}
+\section{Orchestration}
 %-------------------------------------------------------------------------------
-\input{background}
+\input{orchestration}
 
 %-------------------------------------------------------------------------------
 \section{Floating Figures and Lists}

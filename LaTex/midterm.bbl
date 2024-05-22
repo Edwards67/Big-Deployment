@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{hostinger_nginx_proxy}
+{Hostinger}.
+\newblock How to set up nginx reverse proxy.
+\newblock \url{https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/}, 2024.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{linode_modsecurity}
+{Linode}.
+\newblock Securing nginx with modsecurity.
+\newblock \url{https://www.linode.com/docs/guides/securing-nginx-with-modsecurity/}, 2024.
+\newblock Accessed: 2024-05-02.
+
+\end{thebibliography}
