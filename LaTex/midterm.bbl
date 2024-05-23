@@ -1,5 +1,17 @@
 \begin{thebibliography}{1}
 
+\bibitem{DadJokesAPI}
+Dad jokes api.
+\newblock Available at: \url{https://icanhazdadjoke.com/}.
+
+\bibitem{GeoLocationAPI}
+Geo location api.
+\newblock Available at: \url{https://geocoding.geo.census.gov/}.
+
+\bibitem{WeahterAPI}
+Weahter api.
+\newblock Available at: \url{https://api.weather.gov/points/}.
+
 \bibitem{TechTarget_Net}
 Damon Garn.
 \newblock How to capture and analyze traffic with tcpdump, 2023.

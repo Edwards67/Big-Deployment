@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  23 MAY 2024 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  23 MAY 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,79 +858,78 @@ ew
  []
 
 ) (./systemDes.tex) (./services.tex
-Underfull \hbox (badness 1824) in paragraph at lines 1--2
-\T1/ptm/m/n/10 (+20) web-site. All of these com-mand are au-to-mated in the
+Underfull \hbox (badness 1701) in paragraph at lines 1--2
+\T1/ptm/m/n/10 (+20) of that lo-ca-tion, which is the lo-ca-tion of the ini-tia
+lly
  []
 
 [2]) (./midterm.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 
-Underfull \hbox (badness 7504) in paragraph at lines 4--8
+Underfull \hbox (badness 7504) in paragraph at lines 16--20
 []\T1/ptm/m/n/10 (+20) Damon Garn.  How to cap-ture and an-a-lyze
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 \T1/ptm/m/n/10 (+20) traf-fic with tcp-dump, 2023.  [][]$\T1/pcr/m/n/10 https :
  / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 \T1/pcr/m/n/10 techtarget . com / searchnetworking / tutorial /
  []
 
 
-Overfull \hbox (19.53838pt too wide) in paragraph at lines 4--8
+Overfull \hbox (19.53838pt too wide) in paragraph at lines 16--20
 \T1/pcr/m/n/10 How-[]to-[]capture-[]and-[]analyze-[]traffic-[]with-[]tcpdump$[]
 []\T1/ptm/m/n/10 (-20) . 
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 10--16
+Underfull \hbox (badness 2213) in paragraph at lines 22--28
 []\T1/ptm/m/n/10 (+20) Hostinger.  How to set up ng-inx re-verse proxy.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--16
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
 [][]$\T1/pcr/m/n/10 https : / / www . hostinger . com / tutorials /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--16
+Underfull \hbox (badness 10000) in paragraph at lines 22--28
 \T1/pcr/m/n/10 how-[]to-[]set-[]up-[]nginx-[]reverse-[]proxy/$[][]\T1/ptm/m/n/1
 0 (+20) , 2024.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
 []\T1/ptm/m/n/10 (+20) Linode.  Se-cur-ing ng-inx with mod-se-cu-rity.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
 [][]$\T1/pcr/m/n/10 https : / / www . linode . com / docs / guides /
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 18--24
+Underfull \hbox (badness 1448) in paragraph at lines 30--36
 \T1/pcr/m/n/10 securing-[]nginx-[]with-[]modsecurity/$[][]\T1/ptm/m/n/10 (+20) 
 , 2024.  Ac-
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 26--30
+Underfull \hbox (badness 3029) in paragraph at lines 38--42
 []\T1/ptm/m/n/10 (+20) Daniel Schwartz.  Sched-ule tcp-dump with cron,
  []
 
-) [3
-
-] (./midterm.aux)
+) [3] (./midterm.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -939,21 +938,21 @@ Package rerunfilecheck Info: File `midterm.out' has not changed.
 (rerunfilecheck)             Checksum: AA73B638B3A0EBA0FA1355508A7629C7;665.
  ) 
 Here is how much of TeX's memory you used:
- 22604 strings out of 474116
- 418460 string characters out of 5743683
+ 22610 strings out of 474116
+ 418548 string characters out of 5743683
  1946187 words of memory out of 5000000
- 44359 multiletter control sequences out of 15000+600000
+ 44362 multiletter control sequences out of 15000+600000
  601343 words of font info for 205 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,9n,107p,1957b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,9n,107p,1999b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on midterm.pdf (3 pages, 95515 bytes).
+Output written on midterm.pdf (3 pages, 96470 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  54850 words of extra memory for PDF output out of 61914 (max. 10000000)
 
