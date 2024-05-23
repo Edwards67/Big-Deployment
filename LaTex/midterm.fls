@@ -231,6 +231,9 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/filecontents/filecontents.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/filecontents/filecontents.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./midterm.aux
+INPUT ./midterm.aux
+INPUT midterm.aux
 OUTPUT midterm.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd
@@ -247,8 +250,14 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
-OUTPUT midterm.out
+INPUT ./midterm.out
+INPUT ./midterm.out
+INPUT midterm.out
+INPUT midterm.out
 OUTPUT midterm.pdf
+INPUT ./midterm.out
+INPUT ./midterm.out
+OUTPUT midterm.out
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
@@ -292,7 +301,6 @@ INPUT ./orchestration.tex
 INPUT ./orchestration.tex
 INPUT orchestration.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT ./resources/diagram.png
 INPUT ./resources/diagram.png
 INPUT ./resources/diagram.png
@@ -312,8 +320,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8tn.tfm
 INPUT ./security_mechanism.tex
 INPUT ./security_mechanism.tex
