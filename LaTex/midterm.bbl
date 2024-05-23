@@ -1,15 +1,31 @@
 \begin{thebibliography}{1}
 
+\bibitem{TechTarget_Net}
+Damon Garn.
+\newblock How to capture and analyze traffic with tcpdump, 2023.
+\newblock
+  \url{https://www.techtarget.com/searchnetworking/tutorial/How-to-capture-and-analyze-traffic-with-tcpdump}.
+
 \bibitem{hostinger_nginx_proxy}
 {Hostinger}.
 \newblock How to set up nginx reverse proxy.
-\newblock \url{https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/}, 2024.
+\newblock
+  \url{https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/},
+  2024.
 \newblock Accessed: 2024-05-21.
 
 \bibitem{linode_modsecurity}
 {Linode}.
 \newblock Securing nginx with modsecurity.
-\newblock \url{https://www.linode.com/docs/guides/securing-nginx-with-modsecurity/}, 2024.
+\newblock
+  \url{https://www.linode.com/docs/guides/securing-nginx-with-modsecurity/},
+  2024.
 \newblock Accessed: 2024-05-02.
+
+\bibitem{Schwartz_TCPDUMP}
+Daniel Schwartz.
+\newblock Schedule tcpdump with cron, 2018.
+\newblock Available at:
+  \url{https://schwartzdaniel.com/schedule-tcpdump-with-cron/}.
 
 \end{thebibliography}
