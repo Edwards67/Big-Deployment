@@ -75,22 +75,8 @@ Our approach ensures high availability, load balancing, and robust defense again
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
 \section{Logging and IP Gathering}
-To enhance the security of our web server environment, we implemented a robust mechanism 
-for gathering and logging IP addresses. This approach involves capturing IP addresses 
-attempting to access our server on ports other than 22 (SSH) and 80 (HTTP) and maintaining 
-comprehensive logs for further analysis. 
-The IP gathering mechanism is designed to identify unauthorized access attempts by capturing IP
-addresses that try to connect to non-standard ports. This is achieved through a script that utilizes
-tcpdump to monitor network traffic and filter out unwanted connections. The captured IP addresses 
-are stored in a cumulative list, which can be used to block malicious IPs via IP tables.
-In addition to gathering IP addresses, we implemented an hourly logging mechanism to maintain detailed
-records of network activity. This involves running a script that logs all IP traffic, excluding ports 22 and 80,
-and saves the logs with timestamps. These logs provide valuable data for analyzing traffic patterns and identifying 
-potential security threats.
-To ensure the effectiveness of our IP gathering and logging mechanisms, the captured IP addresses and logs are periodically 
-reviewed. This verification process involves accessing the log files to confirm that the security measures are functioning as 
-intended and to identify any anomalies in network traffic.
-\input{threatMod}
+
+\input{security_mechanism}
 %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
