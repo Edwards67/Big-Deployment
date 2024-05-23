@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  21 MAY 2024 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  22 MAY 2024 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -551,14 +551,15 @@ Package filecontents Warning: This package is obsolete. Disabling it and
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box65
-) (./midterm.aux)
+)
+No file midterm.aux.
 \openout1 = `midterm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 12.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 12.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 12.
@@ -623,7 +624,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 12.
- (./midterm.out) (./midterm.out)
 \@outlinefile=\write4
 \openout4 = `midterm.out'.
 
@@ -654,12 +654,15 @@ Overfull \vbox (26.86661pt too high) detected at line 51
  []
 
 (./intro.tex) (./orchestration.tex
-<resources/diagram.png, id=28, 643.40375pt x 602.25pt>
+
+LaTeX Warning: Reference `fig:architecture' on page 1 undefined on input line 2.
+
+<resources/diagram.png, id=7, 643.40375pt x 602.25pt>
 File: resources/diagram.png Graphic file (type png)
 <use resources/diagram.png>
 Package pdftex.def Info: resources/diagram.png  used on input line 8.
 (pdftex.def)             Requested size: 241.02039pt x 225.60426pt.
- [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
  <./resources/diagram.png>]
@@ -667,7 +670,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (./systemDes.tex) (./threatMod.tex) (./eval.tex) (./midterm.bbl
+
+
+LaTeX Warning: Citation `hostinger_nginx_proxy' on page 2 undefined on input line 19.
+
+
+LaTeX Warning: Citation `linode_modsecurity' on page 2 undefined on input line 22.
+
+) (./security_mechanism.tex) (./defense.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\T1/ptm/m/n/10 (+20) The pro-cess be-gins by clear-ing the log file
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\T1/pcr/m/n/10 /var/log/honeypot/block_ip.log \T1/ptm/m/n/10 (+20) to en-sure new
+ []
+
+) (./systemDes.tex) (./eval.tex) (./midterm.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -709,22 +732,35 @@ Underfull \hbox (badness 1448) in paragraph at lines 10--14
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `midterm.out' has not changed.
-(rerunfilecheck)             Checksum: 41D9FA68316282C21430A5AB18867C09;757.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `midterm.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `midterm.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AA73B638B3A0EBA0FA1355508A7629C7;665.
  ) 
 Here is how much of TeX's memory you used:
- 22554 strings out of 474116
- 417961 string characters out of 5743682
+ 22587 strings out of 474116
+ 418318 string characters out of 5743682
  1946187 words of memory out of 5000000
- 44351 multiletter control sequences out of 15000+600000
- 599783 words of font info for 181 fonts, out of 8000000 for 9000
+ 44348 multiletter control sequences out of 15000+600000
+ 604136 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,9n,107p,1052b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on midterm.pdf (2 pages, 85388 bytes).
+Output written on midterm.pdf (2 pages, 89753 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 54842 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 58898 words of extra memory for PDF output out of 61914 (max. 10000000)
 

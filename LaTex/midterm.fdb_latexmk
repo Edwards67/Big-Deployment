@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex midterm"] 1716344981.66863 "midterm.aux" "midterm.bbl" "midterm" 1716344982.74425 0
-  "./refs.bib" 1716344953.42947 1406 d6e0602af7d1c7992c8fb8da7e6c9f67 ""
+["bibtex midterm"] 1716438744.06278 "midterm.aux" "midterm.bbl" "midterm" 1716438744.15452 2
+  "./refs.bib" 1716438219.78524 2037 a9dc8a263df783713be82cf78f644aa4 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "midterm.aux" 1716344982.48545 1142 979ead3afbb91d61aa52514628c26f3e "pdflatex"
+  "midterm.aux" 1716438743.81156 1215 7ad57fe52634e94bea2f3d4b1fc5f58a "pdflatex"
   (generated)
   "midterm.bbl"
   "midterm.blg"
   (rewritten before read)
-["pdflatex"] 1716344981.76712 "/Users/alexander/Documents/Big-Deployment/LaTex/midterm.tex" "midterm.pdf" "midterm" 1716344982.74437 0
-  "/Users/alexander/Documents/Big-Deployment/LaTex/midterm.tex" 1716341887.8071 3336 f2554a59d0f2bc35968a5e9720ef6e64 ""
+["pdflatex"] 1716438743.10833 "/Users/alexander/Documents/Big-Deployment/LaTex/midterm.tex" "midterm.pdf" "midterm" 1716438744.15463 0
+  "/Users/alexander/Documents/Big-Deployment/LaTex/midterm.tex" 1716438304.77155 3349 35703bd556537555f2c046a2e8ff7f4e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -168,16 +168,17 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714452405.37918 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1714452314 8221417 77ced33e5478aa6259ef93a64f3f297c ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
+  "defense.tex" 1716438688.49592 984 220580a8ac944942cd7ac45e5d16bdde ""
   "eval.tex" 1716341885.3501 0 d41d8cd98f00b204e9800998ecf8427e ""
   "intro.tex" 1716340143.78801 1579 b60ff9753a3dfbd2f0ca39318d25496b ""
-  "midterm.aux" 1716344982.48545 1142 979ead3afbb91d61aa52514628c26f3e "pdflatex"
-  "midterm.bbl" 1716344981.7643 473 a67e2c827cba25051c5798bb60021b97 "bibtex midterm"
-  "midterm.out" 1716344982.4859 757 41d9fa68316282c21430a5ab18867c09 "pdflatex"
-  "midterm.tex" 1716341887.8071 3336 f2554a59d0f2bc35968a5e9720ef6e64 ""
-  "orchestration.tex" 1716344979.35794 2221 3fc56078edabb22eaf78908b894ff8fe ""
+  "midterm.aux" 1716438743.81156 1215 7ad57fe52634e94bea2f3d4b1fc5f58a "pdflatex"
+  "midterm.bbl" 1716438744.15376 473 a67e2c827cba25051c5798bb60021b97 "bibtex midterm"
+  "midterm.out" 1716438743.8121 665 aa73b638b3a0eba0fa1355508a7629c7 "pdflatex"
+  "midterm.tex" 1716438304.77155 3349 35703bd556537555f2c046a2e8ff7f4e ""
+  "orchestration.tex" 1716438219.78477 2220 df10cd188238b5d3ca41131c20c44f43 ""
   "resources/diagram.png" 1716341553.42176 59559 0cedbc0a627e420b1f93cb3fa2af213e ""
-  "systemDes.tex" 1716333714.07039 376 41342a22ff1a925f50a2d0d60bbf780b ""
-  "threatMod.tex" 1716333714.0705 376 41342a22ff1a925f50a2d0d60bbf780b ""
+  "security_mechanism.tex" 1716438741.69732 1367 8c473f0f2e1b6b6777285aeac35ea8c8 ""
+  "systemDes.tex" 1716438422.44535 785 bce9592fd97fbb4fba2b35cdaae8653e ""
   "usenix-2020-09.sty" 1716338024.86991 3830 c9dedfb913b0d4ea2141b73c7f524a2f ""
   (generated)
   "midterm.aux"
