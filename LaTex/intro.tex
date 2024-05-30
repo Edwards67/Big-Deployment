@@ -3,15 +3,15 @@ As cyber threats become more advanced, it's crucial to implement solutions that 
 while also maintaining high availability and performance. 
 
 To address these challenges, we propose a comprehensive deployment architecture by first utilizing Kubernetes, an open-source platform designed for automating deployment, scaling, 
-and management of containerized applications. With this platform, we ensure high-availability to prospective users and a modular
+and management of containerized applications ~\cite{kubernetes}. With this platform, we ensure high-availability to prospective users and a modular
 environment to build and scale upon as we please. 
 
 To enhance our microservice architecture, we introduced an additional abstraction layer using an NGINX proxy hosted locally on the server. 
 This proxy server fetches content from our Kubernetes load balancer, serving as a gateway between our internal services and external communications. 
-To mitigate potential threats, we integrated ModSecurity, a well-known web application firewall (WAF), into our proxy. 
-ModSecurity monitors and blocks common exploitation methods by referencing a comprehensive rule list that addresses the OWASP Top Ten vulnerabilities.
+To mitigate potential threats, we integrated ModSecurity, a well-known web application firewall (WAF), into our proxy ~\cite{modsecurity}. 
+ModSecurity monitors and blocks common exploitation methods by referencing a comprehensive rule list that addresses the OWASP Top Ten vulnerabilities ~\cite{owasp_top_ten}.
 
-We realize that exploiting our endpoint services isn't the only attack vector within our environment. 
+Exploiting our endpoint services isn't the only attack vector within our environment. 
 To address this, we implemented host-level logging to monitor network traffic and identify IP addresses not communicating via SSH or HTTP. 
 Additionally, we applied an automated process to block malicious IP addresses, enhancing our overall security posture.
 

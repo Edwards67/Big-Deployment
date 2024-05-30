@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{DadJokesAPI}
 Dad jokes api.
@@ -15,29 +15,47 @@ Weahter api.
 \bibitem{TechTarget_Net}
 Damon Garn.
 \newblock How to capture and analyze traffic with tcpdump, 2023.
-\newblock
-  \url{https://www.techtarget.com/searchnetworking/tutorial/How-to-capture-and-analyze-traffic-with-tcpdump}.
+\newblock \url{https://www.techtarget.com/searchnetworking/tutorial/How-to-capture-and-analyze-traffic-with-tcpdump}.
 
-\bibitem{hostinger_nginx_proxy}
+\bibitem{nginx}
 {Hostinger}.
-\newblock How to set up nginx reverse proxy.
-\newblock
-  \url{https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/},
-  2024.
+\newblock nginx is an http and reverse proxy server.
+\newblock \url{https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/}, 2024.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{owasp_top_ten}
+{https://owasp.org/}.
+\newblock The owasp top 10 is a standard awareness document for developers and web application security.
+\newblock \url{https://owasp.org/www-project-top-ten/}, 2021.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{kubernetes}
+{Kubernetes}.
+\newblock This page is an overview of kubernetes.
+\newblock \url{https://kubernetes.io/docs/concepts/overview/}, 2023.
 \newblock Accessed: 2024-05-21.
 
 \bibitem{linode_modsecurity}
 {Linode}.
 \newblock Securing nginx with modsecurity.
-\newblock
-  \url{https://www.linode.com/docs/guides/securing-nginx-with-modsecurity/},
-  2024.
+\newblock \url{https://www.linode.com/docs/guides/securing-nginx-with-modsecurity/}, 2024.
 \newblock Accessed: 2024-05-02.
+
+\bibitem{modsecurity}
+{modsecurity}.
+\newblock This page is an overview of modsecurity.
+\newblock \url{https://github.com/owasp-modsecurity/ModSecurity}, 2021.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{hostinger_nginx_proxy}
+{Nginx}.
+\newblock How to set up nginx reverse proxy.
+\newblock \url{https://nginx.org/en/}, 2024.
+\newblock Accessed: 2024-05-21.
 
 \bibitem{Schwartz_TCPDUMP}
 Daniel Schwartz.
 \newblock Schedule tcpdump with cron, 2018.
-\newblock Available at:
-  \url{https://schwartzdaniel.com/schedule-tcpdump-with-cron/}.
+\newblock Available at: \url{https://schwartzdaniel.com/schedule-tcpdump-with-cron/}.
 
 \end{thebibliography}

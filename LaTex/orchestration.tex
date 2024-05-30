@@ -14,7 +14,7 @@ To host our content, we utilized Kubernetes. This method first involved integrat
 We then created service and deployment YAML files to control multiple containers behind a load balancer. 
 
 Once we had a functional cluster of orchestrated containers, the next goal was to make our load balancer not the first point of contact between external users and our internal environment. 
-This involved integrating an NGINX reverse proxy on our host machine to facilitate communication without exposing our services directly to the internet. 
+This involved integrating an NGINX reverse proxy ~\cite{nginx} on our host machine to facilitate communication without exposing our services directly to the internet. 
 
 To setup an NGINX reverse proxy, we had to install the service then modify the global configuration file in the \texttt{/etc/nginx/conf.d/} directory to specifically mediate communications between external users and our internal load balancer ~\cite{hostinger_nginx_proxy}. The specifics for this step is
 very convoluted, essentially we had to define server and location blocks with a \texttt{proxy pass} flag to enable the proxy feature of NGINX.
