@@ -10,8 +10,7 @@ that outlines how every building block in our environment fits together to form 
     \label{fig:architecture}
 \end{figure}
 
-To host our content, we utilized Kubernetes. This method first involved integrating a docker image that was specifically designed to host content created by our frontend developers.
-We then created service and deployment YAML files to control multiple containers behind a load balancer. 
+To host our content, we utilized Kubernetes. This method first involved integrating a docker image that was specifically designed to host content created by our frontend developers. We then created service and deployment YAML files to control multiple containers behind a load balancer. 
 
 Once we had a functional cluster of orchestrated containers, the next goal was to make our load balancer not the first point of contact between external users and our internal environment. 
 This involved integrating an NGINX reverse proxy ~\cite{nginx} on our host machine to facilitate communication without exposing our services directly to the internet. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  28 MAY 2024 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  31 MAY 2024 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,7 @@ Overfull \vbox (26.86661pt too high) detected at line 51
  []
 
 (./intro.tex) (./orchestration.tex
-<resources/diagram.png, id=35, 643.40375pt x 602.25pt>
+<resources/diagram.png, id=40, 643.40375pt x 602.25pt>
 File: resources/diagram.png Graphic file (type png)
 <use resources/diagram.png>
 Package pdftex.def Info: resources/diagram.png  used on input line 8.
@@ -668,6 +668,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) (./security_mechanism.tex) (./defense.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 []\T1/ptm/m/n/10 (+20) The pro-cess be-gins by clear-ing the log file
  []
@@ -682,7 +685,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 1--2
 \T1/ptm/m/n/10 (+20) of that lo-ca-tion, which is the lo-ca-tion of the ini-tially
  []
 
-[2]) (./midterm.bbl
+[2]) (./eval.tex) (./midterm.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -695,71 +698,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 16--19
+Underfull \hbox (badness 4072) in paragraph at lines 16--19
+[]\T1/ptm/m/n/10 (+20) DRD.  Use com-mand in-jec-tion to pop a re-
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 16--19
+\T1/ptm/m/n/10 (+20) verse shell on a web server, 2018.  [][]$\T1/pcr/m/n/10 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+\T1/pcr/m/n/10 / / null-[]byte . wonderhowto . com / how-[]to /
+ []
+
+
+Overfull \hbox (86.23808pt too wide) in paragraph at lines 16--19
+\T1/pcr/m/n/10 use-[]command-[]injection-[]pop-[]reverse-[]shell-[]web-[]server-[]0185760/$[][]\T1/ptm/m/n/10 (-20) . 
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 21--24
 []\T1/ptm/m/n/10 (+20) Damon Garn.  How to cap-ture and an-a-lyze
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 \T1/ptm/m/n/10 (+20) traf-fic with tcp-dump, 2023.  [][]$\T1/pcr/m/n/10 https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 \T1/pcr/m/n/10 techtarget . com / searchnetworking / tutorial /
  []
 
 
-Overfull \hbox (24.53838pt too wide) in paragraph at lines 16--19
+Overfull \hbox (24.53838pt too wide) in paragraph at lines 21--24
 \T1/pcr/m/n/10 How-[]to-[]capture-[]and-[]analyze-[]traffic-[]with-[]tcpdump$[][]\T1/ptm/m/n/10 (-20) . 
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 21--25
+Underfull \hbox (badness 1715) in paragraph at lines 26--30
 []\T1/ptm/m/n/10 (+20) Hostinger.  ng-inx is an http and re-verse proxy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+[]\T1/ptm/m/n/10 (+20) https://owasp.org/.  Owasp mod-se-cu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+\T1/ptm/m/n/10 (+20) rity core rule set.  [][]$\T1/pcr/m/n/10 https : / / owasp . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+\T1/pcr/m/n/10 www-[]project-[]modsecurity-[]core-[]rule-[]set/$[][]\T1/ptm/m/n/10 (+20) ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 []\T1/ptm/m/n/10 (+20) Linode.  Se-cur-ing ng-inx with mod-se-cu-rity.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 [][]$\T1/pcr/m/n/10 https : / / www . linode . com / docs / guides /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 \T1/pcr/m/n/10 securing-[]nginx-[]with-[]modsecurity/$[][]\T1/ptm/m/n/10 (+20) , 2024.
  []
 
-
-Underfull \hbox (badness 1838) in paragraph at lines 57--60
+[3]
+Underfull \hbox (badness 1838) in paragraph at lines 68--71
 []\T1/ptm/m/n/10 (+20) Daniel Schwartz.  Sched-ule tcp-dump with cron,
  []
 
-) [3] (./midterm.aux)
+
+Overfull \hbox (215.27748pt too wide) in paragraph at lines 73--76
+\T1/pcr/m/n/10 Types-[]of-[]SQL-[]manipulation-[]a-[]Tautology-[]In-[]this-[]type-[]of-[]SQLIA-[]an-[]attacker-[]exploits-[]an _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+[]\T1/ptm/m/n/10 (+20) Synopsys.  Cross-site script-ing (xss), 2022.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+[][]$\T1/pcr/m/n/10 https : / / www . synopsys . com / glossary /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+\T1/pcr/m/n/10 what-[]is-[]cross-[]site-[]scripting . html# : ~ :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+\T1/pcr/m/n/10 text = Cross % 2Dsite % 20scripting % 20(XSS ) %20is %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+\T1/pcr/m/n/10 20an % 20attack % 20in % 20which ,[] the % 20user %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
+[]\T1/ptm/m/n/10 (+20) Weilin Zhong.  Com-mand in-jec-tion, 2022.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
+[][]$\T1/pcr/m/n/10 https : / / owasp . org / www-[]community / attacks /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
+\T1/pcr/m/n/10 Command _ Injection# : ~ : text = Command %
+ []
+
+) [4
+
+] (./midterm.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `midterm.out' has not changed.
-(rerunfilecheck)             Checksum: AA73B638B3A0EBA0FA1355508A7629C7;665.
+(rerunfilecheck)             Checksum: E243DC9F8DDA8F82B8FB28A5600E4408;821.
  ) 
 Here is how much of TeX's memory you used:
- 22619 strings out of 474116
- 418820 string characters out of 5743682
- 1946187 words of memory out of 5000000
- 44366 multiletter control sequences out of 15000+600000
- 601343 words of font info for 205 fonts, out of 8000000 for 9000
+ 22643 strings out of 474116
+ 419102 string characters out of 5743682
+ 1949187 words of memory out of 5000000
+ 44377 multiletter control sequences out of 15000+600000
+ 601473 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,9n,107p,2054b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,9n,107p,2054b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on midterm.pdf (3 pages, 98413 bytes).
+Output written on midterm.pdf (4 pages, 106640 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 54850 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 54858 words of extra memory for PDF output out of 61914 (max. 10000000)
 

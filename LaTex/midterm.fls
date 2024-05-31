@@ -343,6 +343,11 @@ INPUT ./services.tex
 INPUT services.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/vf/public/pslatex/pcrr8tn.vf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm
+INPUT ./eval.tex
+INPUT ./eval.tex
+INPUT ./eval.tex
+INPUT ./eval.tex
+INPUT eval.tex
 INPUT ./midterm.bbl
 INPUT ./midterm.bbl
 INPUT midterm.bbl

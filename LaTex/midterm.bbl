@@ -12,6 +12,11 @@ Geo location api.
 Weahter api.
 \newblock Available at: \url{https://api.weather.gov/points/}.
 
+\bibitem{backdoor}
+DRD.
+\newblock Use command injection to pop a reverse shell on a web server, 2018.
+\newblock \url{https://null-byte.wonderhowto.com/how-to/use-command-injection-pop-reverse-shell-web-server-0185760/}.
+
 \bibitem{TechTarget_Net}
 Damon Garn.
 \newblock How to capture and analyze traffic with tcpdump, 2023.
@@ -28,6 +33,12 @@ Damon Garn.
 \newblock The owasp top 10 is a standard awareness document for developers and web application security.
 \newblock \url{https://owasp.org/www-project-top-ten/}, 2021.
 \newblock Accessed: 2024-05-21.
+
+\bibitem{modsec_owasp}
+{https://owasp.org/}.
+\newblock Owasp modsecurity core rule set.
+\newblock \url{https://owasp.org/www-project-modsecurity-core-rule-set/}, 2024.
+\newblock Accessed: 2024-05-02.
 
 \bibitem{kubernetes}
 {Kubernetes}.
@@ -57,5 +68,20 @@ Damon Garn.
 Daniel Schwartz.
 \newblock Schedule tcpdump with cron, 2018.
 \newblock Available at: \url{https://schwartzdaniel.com/schedule-tcpdump-with-cron/}.
+
+\bibitem{tautology}
+Chandershekhar Sharma.
+\newblock Types of sql manipulation, 2016.
+\newblock \url{https://www.researchgate.net/figure/Types-of-SQL-manipulation-a-Tautology-In-this-type-of-SQLIA-an-attacker-exploits-an_fig4_299575353}.
+
+\bibitem{xss}
+Synopsys.
+\newblock Cross-site scripting (xss), 2022.
+\newblock \url{https://www.synopsys.com/glossary/what-is-cross-site-scripting.html#:~:text=Cross%2Dsite%20scripting%20(XSS)%20is%20an%20attack%20in%20which,the%20user%20to%20click%20it.}
+
+\bibitem{cmd_injection}
+Weilin Zhong.
+\newblock Command injection, 2022.
+\newblock \url{https://owasp.org/www-community/attacks/Command_Injection#:~:text=Command%20injection%20is%20an%20attack.}
 
 \end{thebibliography}
