@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  31 MAY 2024 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  31 MAY 2024 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,7 @@ Overfull \vbox (26.86661pt too high) detected at line 51
  []
 
 (./intro.tex) (./orchestration.tex
-<resources/diagram.png, id=40, 643.40375pt x 602.25pt>
+<resources/diagram.png, id=44, 643.40375pt x 602.25pt>
 File: resources/diagram.png Graphic file (type png)
 <use resources/diagram.png>
 Package pdftex.def Info: resources/diagram.png  used on input line 8.
@@ -685,7 +685,10 @@ Underfull \hbox (badness 1701) in paragraph at lines 1--2
 \T1/ptm/m/n/10 (+20) of that lo-ca-tion, which is the lo-ca-tion of the ini-tially
  []
 
-[2]) (./eval.tex) (./midterm.bbl
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]) (./eval.tex) (./Results.tex) (./midterm.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -742,7 +745,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 26--30
 []\T1/ptm/m/n/10 (+20) Hostinger.  ng-inx is an http and re-verse proxy
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 38--42
 []\T1/ptm/m/n/10 (+20) https://owasp.org/.  Owasp mod-se-cu-
  []
@@ -772,7 +775,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--54
 \T1/pcr/m/n/10 securing-[]nginx-[]with-[]modsecurity/$[][]\T1/ptm/m/n/10 (+20) , 2024.
  []
 
-[3]
+
 Underfull \hbox (badness 1838) in paragraph at lines 68--71
 []\T1/ptm/m/n/10 (+20) Daniel Schwartz.  Sched-ule tcp-dump with cron,
  []
@@ -830,21 +833,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `midterm.out' has not changed.
-(rerunfilecheck)             Checksum: E243DC9F8DDA8F82B8FB28A5600E4408;821.
+(rerunfilecheck)             Checksum: EDAB7FAF336204D093114AECCC0BED27;899.
  ) 
 Here is how much of TeX's memory you used:
- 22643 strings out of 474116
- 419102 string characters out of 5743682
- 1949187 words of memory out of 5000000
- 44377 multiletter control sequences out of 15000+600000
- 601473 words of font info for 207 fonts, out of 8000000 for 9000
+ 22659 strings out of 474116
+ 419301 string characters out of 5743682
+ 1948187 words of memory out of 5000000
+ 44383 multiletter control sequences out of 15000+600000
+ 601733 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,9n,107p,2054b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on midterm.pdf (4 pages, 106640 bytes).
+Output written on midterm.pdf (4 pages, 107484 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 54858 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 54866 words of extra memory for PDF output out of 61914 (max. 10000000)
 
