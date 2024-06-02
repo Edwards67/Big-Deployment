@@ -1,6 +1,11 @@
-A paragraph of text goes here. Lots of text. Plenty of interesting
-text. Text text text text text text text text text text text text text
-text text text text text text text text text text text text text text
-text text text text text text text text text text text text text text
-text text text text text text text.
-More fascinating text. Features galore, plethora of promises.
+The 'Weather and Jokes' web application employs Kubernetes and NGINX within its architecture to provide defenses against several cybersecurity threats. 
+These measures are crucial for maintaining both the integrity and availability of our services and for ensuring that user data remains secure against potential exploitation.
+In contemplating the perceived capabilities of potential attackers, we recognize that they are likely to possess a high degree of technical sophistication, equipped with the skills necessary to exploit vulnerabilities typical of web applications. 
+These attackers might use advanced techniques for SQL injections, craft XSS attacks, and leverage automated tools to execute DoS attacks.
+
+To counter these threats, our application utilizes a load balancer within the Kubernetes environment to effectively manage traffic volumes that could potentially lead to DoS attacks. 
+This load balancer helps distribute incoming traffic evenly across available servers, preventing any single server from becoming overwhelmed
+Additionally, NGINX, configured as a reverse proxy, is pivotal in safeguarding against unauthorized access and filtering out malicious requests. It acts as a gatekeeper, routing all incoming traffic through its server and using ModSecurity-a web application firewall—to identify and block threats identified from patterns typical in SQL injections and XSS. 
+Moreover, NGINX enhances the security of user sessions by managing encrypted connections, a crucial feature for preventing session hijacking. 
+These encrypted channels ensure that session tokens, critical for maintaining user session integrity, are not intercepted or tampered with by unauthorized parties.
+Through the strategic implementation of Kubernetes and NGINX, the 'Weather and Jokes' application is well-prepared to defend against a spectrum of cybersecurity threats.
