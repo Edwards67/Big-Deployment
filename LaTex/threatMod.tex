@@ -6,7 +6,7 @@ These attackers might use advanced techniques for SQL injections, craft XSS atta
 
 To counter these threats, our application utilizes a load balancer within the Kubernetes environment to effectively manage traffic volumes that could potentially lead to DoS attacks. 
 This load balancer helps distribute incoming traffic evenly across available servers, preventing any single server from becoming overwhelmed
-Additionally, NGINX, configured as a reverse proxy, is pivotal in safeguarding against unauthorized access and filtering out malicious requests. It acts as a gatekeeper, routing all incoming traffic through its server and using ModSecurity-a web application firewall—to identify and block threats identified from patterns typical in SQL injections and XSS. 
+Additionally, NGINX, configured as a reverse proxy, is pivotal in safeguarding against unauthorized access and filtering out malicious requests. It acts as a gatekeeper, routing all incoming traffic through its server and using ModSecurity-a web application firewall(Talked more about later)—to identify and block threats identified from patterns typical in SQL injections and XSS. 
 Moreover, NGINX enhances the security of user sessions by managing encrypted connections, a crucial feature for preventing session hijacking. 
 These encrypted channels ensure that session tokens, critical for maintaining user session integrity, are not intercepted or tampered with by unauthorized parties.
 Through the strategic implementation of Kubernetes and NGINX, the 'Weather and Jokes' application is well-prepared to defend against a spectrum of cybersecurity threats.
