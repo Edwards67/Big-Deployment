@@ -1,0 +1,7 @@
+Our web server security solution deploys and scales with Kubernetes, supported by an NGINX proxy and ModSecurity for increased protection. Host-level logging and automated IP blocking further strengthen security. Using a multi-tiered architecture and Kubernetes hosting, we integrate and orchestrate these components seamlessly. An NGINX reverse proxy ensures secure communication while a web application firewall examines and blocks known vulnerabilities.
+
+To enhance security, we implemented a mechanism that logs IP addresses trying to access non-standard ports, with hourly logs for network activity monitoring. We utilize Docker to run our website 'Weather and Jokes' with Ubuntu and Flask, providing isolated defensive features. The website includes four pages: Home, Contact, FTP Manual (honeypot), and Login (trap for attackers).
+
+Two services in the flask_example.py file fetch weather and dad jokes using APIs. The weather service converts URLs to IP addresses, retrieves physical addresses, and obtains weather based on geographical coordinates. The joke service offers an interactive feature for users.
+
+In order to evaluate our infrastructure, we conduct simulated attacks, including SQL injection, cross-site scripting (XSS), and command injection, which our web application firewall successfully detects and blocks, as confirmed by HTTP 403 responses.
