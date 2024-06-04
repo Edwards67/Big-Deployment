@@ -1,1 +1,15 @@
-test background working rn 
+Going into this project we had some inspiration. Back in the class CSCD 330 in Eastern Washington University (EWU), taught by Tony Antonio Espinoza, we had an assignment to get the weather from the geo location of a website. We use different tools and languages to do this. This mainly inspired the creation of the services part of this project.
+
+The tool that we used from the insportion is \verb+Flask+. We used \verb+Flask+ to host our website. \verb+Flask+ is a lightweight and flexible \verb+Python+ web framework that allows for quick development of web applications. It provides essential tools because it runs in \verb+Python+. All the services and the entirety of the website is hosted on \verb+Flask+. 
+
+The \verb+Flask+ website is hosted in a \verb+Docker+ container. Docker is a platform that enables developers to automate the deployment of applications inside lightweight, portable containers. We used Docker to host the Flask website, ensuring a consistent environment and simplifying the deployment process.
+
+We use \verb+tcpdump+ which is a powerful command-line packet analyzer used for network troubleshooting and analysis. It captures and displays network traffic, providing detailed insights into data packets transmitted over a network in real-time. We use \verb+tcpdump+ to watch what is happening on our network and looking for any suspicious activity which we will blocked from accessing the website.
+
+The way we block user is with \verb+iptables+. In \verb+iptable+ you can set rules. We use this to set rules to block the IP address that are involved with the suspicious activity that we detected using \verb+tcpdump+.
+
+We also used tools called \verb+cronjobs+ and \verb+crontab+. \verb+cronjobs+ are scheduled tasks in \verb+Unix+-like operating systems that run at specified times or intervals, automating repetitive processes. These tasks are managed using the \verb+crontab+ file, where users can define the timing and commands for each job. We used these tools to do many task, which needed automation.
+
+To address the challenges of securing and scaling web server environments, we utilized \verb+Kubernetes+, an open-source platform for automating the deployment, scaling, and management of containerized applications. Kubernetes is widely adopted for its ability to provide high availability and a modular environment conducive to efficient application building and scaling. 
+
+To further enhance our microservice architecture, we integrated \verb+NGINX+ as a reverse proxy. \verb+NGINX+ directs traffic between clients and servers, adding an extra layer of security by handling requests before they reach the internal services. Additionally, we implemented \verb+ModSecurity+, a web application firewall integrated with \verb+NGINX+. ModSecurity is effective in detecting and mitigating common web application attacks, thereby strengthening our security measures.
