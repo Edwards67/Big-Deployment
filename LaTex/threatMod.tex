@@ -1,12 +1,12 @@
-The 'Weather and Jokes' web application employs Kubernetes and NGINX within its architecture to provide defenses against several cybersecurity threats. 
+The `Weather and Jokes' web application employs Kubernetes and NGINX within its architecture to provide defenses against several cybersecurity threats. 
 We are specifically defending against unauthorized access, SQL injections, Cross-Site Scripting (XSS), session hijacking, and Denial of Service (DoS) attacks. 
 In contemplating the perceived capabilities of potential attackers, we recognize that they are likely to possess a high degree of technical sophistication, equipped with the skills necessary to exploit vulnerabilities typical of web applications. 
 These attackers might use reconnaissance tools to gain information, and advanced techniques for SQL injections, craft XSS attacks, and leverage automated tools to execute DoS attacks.
 
 To counter these threats, our application utilizes a load balancer within the Kubernetes environment to effectively manage traffic volumes that could potentially lead to DoS attacks. 
-This load balancer helps distribute incoming traffic evenly across available servers, preventing any single server from becoming overwhelmed. We sanitize user input, protecting against XSS, and logging the attempts they made so we understand more of our attackers attacks and motives.
-Additionally, NGINX, configured as a reverse proxy, is important in safeguarding against unauthorized access and filtering out malicious requests. It acts as a gatekeeper, routing all incoming traffic through its server and using ModSecurity-a web application firewall(Talked more about later)—to identify and block threats identified from patterns typical in SQL injections and XSS. 
+This load balancer helps distribute incoming traffic evenly across available servers, preventing any single server from becoming overwhelmed. We sanitize user input, protecting against XSS, and logging the attempts they made so we understand more of our attackers' attacks and motives. 
+Additionally, NGINX, configured as a reverse proxy, is important in safeguarding against unauthorized access and filtering out malicious requests. 
+It acts as a gatekeeper, routing all incoming traffic through its server and using ModSecurity—a web application firewall (talked more about later)—to identify and block threats identified from patterns typical in SQL injections and XSS.\@
 Moreover, NGINX simulates secure user sessions by managing encrypted connections, a key tactic to make the honeypot appear as a legitimate and secure environment, enticing attackers to engage more deeply. 
 These encrypted channels are designed to ensure that any data captured, including session tokens, remains controlled and uncompromised, allowing us to safely monitor and analyze malicious activities without risk.
-
 Through the strategic implementation of Kubernetes and NGINX, our application is well-prepared to defend against a wide spectrum of cybersecurity threats.
