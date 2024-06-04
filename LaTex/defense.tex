@@ -1,7 +1,15 @@
-We have established a comprehensive security protocol to monitor and block unauthorized access attempts to our web server. This involves capturing IP addresses attempting to access our server on ports other than 22 (SSH) and 80 (HTTP) and maintaining comprehensive logs for further analysis.
+We have implemented a robust security protocol to monitor and thwart unauthorized access attempts to our web server, integrating both network-level defenses and application-level security measures through a Web Application Firewall (WAF).
 
-The process begins by clearing the log file \texttt{/var/log/honeypot/block\_ip.log} to ensure new entries are recorded clearly.
+At the network level, our system vigilantly monitors incoming traffic, specifically targeting ports other than the standard 22 (SSH) and 80 (HTTP) ports, which are typically associated with legitimate traffic. Any attempt to access non-standard ports triggers an immediate alert for further investigation.
 
-The script then checks for the existence of a cumulative IP list file at \texttt{/var/log/honeypot/ip\_list\_all.txt}, which contains IP addresses flagged for suspicious activity. If this list exists, the script reads each IP address and adds a \texttt{DROP} rule to \texttt{iptables}, effectively blocking incoming traffic from these addresses. The success or failure of each attempt to block an IP address is logged with a timestamp in the \texttt{block\_ip.log} file.
+Upon detection of suspicious activity, the system logs the IP address of the source and subjects it to thorough scrutiny against predefined criteria. These criteria include patterns of unusual behavior, such as repeated failed login attempts, access to sensitive directories, and known attack signatures.
 
-If the cumulative IP list is not found, an error message is logged and the script exits.
+We maintain a cumulative IP list file, acting as a blacklist for IP addresses previously identified for suspicious activity. Traffic originating from these addresses is automatically blocked by applying a DROP rule to the iptables firewall. Each attempt to block an IP address is meticulously logged with a timestamp for subsequent analysis.
+
+We leverage a Web Application Firewall (WAF) to fortify our web applications against common security threats, such as SQL injection, cross-site scripting (XSS), and other malicious attacks. The WAF rigorously inspects incoming HTTP requests and applies predefined rules to filter out potentially harmful traffic before it reaches the web server.
+
+To operationalize these measures, a comprehensive script is employed. This script begins by clearing the log file /var/log/honeypot/block_ip.log to ensure that new entries are logged accurately.
+
+It then checks for the existence of the cumulative IP list file located at /var/log/honeypot/ip_list_all.txt. If this file exists, the script reads each flagged IP address and adds a DROP rule to iptables, effectively blocking incoming traffic from these addresses. The success or failure of each blocking attempt is logged in the block_ip.log file, along with a timestamp for traceability.
+
+If the cumulative IP list is not found, an error message is logged, and the script gracefully exits, ensuring system integrity and continuity.
