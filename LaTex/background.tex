@@ -4,11 +4,11 @@ The tool that we used from the insportion is \verb+Flask+. We used \verb+Flask+ 
 
 The \verb+Flask+ website is hosted in a \verb+Docker+ container. Docker is a platform that enables developers to automate the deployment of applications inside lightweight, portable containers. We used Docker to host the Flask website, ensuring a consistent environment and simplifying the deployment process.
 
-We use \verb+tcpdump+ which is a powerful command-line packet analyzer used for network troubleshooting and analysis. It captures and displays network traffic, providing detailed insights into data packets transmitted over a network in real-time. We use \verb+tcpdump+ to watch what is happening on our network and looking for any suspicious activity which we will blocked from accessing the website.
+We use \verb+tcpdump+ which is a powerful command-line packet analyzer used for network troubleshooting and analysis. It captures and displays network traffic, providing detailed insights into data packets transmitted over a network in real-time. We use \verb+tcpdump+ to watch what is happening on our network and looking for any suspicious activity which we will block from accessing the website.
 
-The way we block user is with \verb+iptables+. In \verb+iptable+ you can set rules. We use this to set rules to block the IP address that are involved with the suspicious activity that we detected using \verb+tcpdump+.
+The way we block users is with \verb+iptables+. In \verb+iptable+ you can set rules. We use this to set rules to block the \verb+IP+ address that are involved with the suspicious activity that we detected using \verb+tcpdump+.
 
-We also used tools called \verb+cronjobs+ and \verb+crontab+. \verb+cronjobs+ are scheduled tasks in \verb+Unix+-like operating systems that run at specified times or intervals, automating repetitive processes. These tasks are managed using the \verb+crontab+ file, where users can define the timing and commands for each job. We used these tools to do many task, which needed automation.
+We also used tools called \verb+cronjobs+ and \verb+crontab+. \verb+cronjobs+ are scheduled tasks in \verb+Unix+-like operating systems that run at specified times or intervals, automating repetitive processes. These tasks are managed using the \verb+crontab+ file, where we can define the timing and commands for each job. We use these tools to do many task, which needed automation.
 
 To address the challenges of securing and scaling web server environments, we utilized \verb+Kubernetes+, an open-source platform for automating the deployment, scaling, and management of containerized applications. Kubernetes is widely adopted for its ability to provide high availability and a modular environment conducive to efficient application building and scaling. 
 
